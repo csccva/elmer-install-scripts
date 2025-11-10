@@ -14,9 +14,9 @@ More information
 whatis([==[Description: ELMER is an open-source	multi-physics Finite Element code provided by CSC.]==])
 
 
-local root = "/scratch/project_462000007/cristian/ELMER/ELMER_FLANG/elmer-install"
+local root = "/scratch/project_462000007/cristian/ELMER/ELMER_FLANG/ELMER_MONDAY/elmer-install"
 -- local dependencies = "/appl/local/csc/soft/eng/elmer/gcc-native-13.2/cray-mpich-8.1.29/elmerdependencies/"
-local ourmpi = "/scratch/project_462000007/cristian/ELMER/ELMER_FLANG/mpich"
+local ourmpi = "/scratch/project_462000007/cristian/ELMER/ELMER_FLANG/ELMER_MONDAY/mpich-3.4a2-install"
 
 
 
@@ -86,6 +86,3 @@ if (mode() == "load") then
 
 
 end
-
-
-
