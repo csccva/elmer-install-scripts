@@ -39,7 +39,7 @@ make -j
 make  install
 ```
 
-If all works make som esymbolic links to the system mpich libraries:
+If all works make symbolic links to the system mpich libraries:
 ```
 cd /scratch/project_462000007/cristian/ELMER/ELMER_FLANG/ELMER_MONDAY/
 export wd=$PWD
