@@ -55,7 +55,7 @@ export AMDFLANG_DIR=/scratch/project_462000007/cristian/ELMER/ELMER_FLANG/cva_du
 export AMDFLANG_MPICH_DIR=/scratch/project_462000007/cristian/ELMER/ELMER_FLANG/ELMER_MONDAY/mpich-3.4a2-install
 
 <!-- 
-#export AMDFLANMG_MPICH_DIR=/scratch/project_462000007/cristian/ELMER/ELMER_FLANG/cva_dump/rocm-afar-8873-drop-22.2.0/
+#export AMDFLANG_MPICH_DIR=/scratch/project_462000007/cristian/ELMER/ELMER_FLANG/cva_dump/rocm-afar-8873-drop-22.2.0/
 #export MPICH_DIR=/scratch/project_462000007/cristian/ELMER/ELMER_FLANG/ELMER_MONDAY/mpich-3.4a2-install -->
 
 ```
