@@ -72,3 +72,12 @@ make -j
 make install
 ```
 ## Test Elmer
+
+## Test `HIPFORT`
+
+```
+amdflang -I$AMDFLANG_DIR/include/hipfort/amdgcn "-DHIPFORT_ARCH=\"amd\"" -c main.f03 
+hipcc -fno-gpu-rdc -fPIC --offload-arch=gfx90a -c hip_implementation.cpp 
+amdflang hip_implementation.o main.o  -L$AMDFLANG_DIR/include/lib  -lhipfort-amdgcn  -L$ROCM_PATH/lib -lamdhip64 -Wl,-rpath=$ROCM_PATH/lib  -lstdc++
+
+```
