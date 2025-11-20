@@ -22,8 +22,7 @@ module load afar-8873-drop-22.2.0-alma
 wget https://www.mpich.org/static/downloads/3.4a2/mpich-3.4a2.tar.gz
 tar -xvf mpich-3.4a2.tar.gz
 ```
-
-or
+Then
 
 ```
 cd mpich-3.4.a2
